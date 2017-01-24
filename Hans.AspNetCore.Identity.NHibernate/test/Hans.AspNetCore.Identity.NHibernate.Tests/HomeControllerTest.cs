@@ -41,7 +41,7 @@ namespace Hans.AspNetCore.Identity.NHibernate.Tests
             var viewResult = result as ViewResult;
 
             Assert.IsNotNull(viewResult);
-            Assert.AreEqual("Your application description page.", viewResult.ViewData["Message"]);
+            Assert.AreEqual("Your application description page1.", viewResult.ViewData["Message"]);
         }
 
         [TestMethod]
