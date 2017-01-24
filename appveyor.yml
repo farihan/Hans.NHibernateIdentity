@@ -1,10 +1,4 @@
 version: 1.0.{build}
 image: Visual Studio 2015
-configuration: Debug
-platform: Any CPU
-environment:
-  ConnectionStrings:Development: Server=(local)\SQL2014;Database=Test;User ID=sa;Password=Password12!
 build:
   verbosity: minimal
-after_test:
-- cmd: vstest.console /logger:Appveyor "C:\projects\hans-nhibernateidentity\Hans.AspNetCore.Identity.NHibernate\test\Hans.AspNetCore.Identity.NHibernate.Tests\bin\Debug\Hans.AspNetCore.Identity.NHibernate.Tests.dll"
