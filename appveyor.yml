@@ -1,6 +1,7 @@
 version: 1.0.{build}
 image: Visual Studio 2015
 configuration: Debug
+platform: Any CPU
 environment:
   ConnectionStrings:Development: Server=(local)\SQL2014;Database=Test;User ID=sa;Password=Password12!
 build:
