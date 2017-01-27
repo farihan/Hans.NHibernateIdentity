@@ -1,0 +1,2 @@
+language: csharp
+solution: Hans.AspNetCore.Identity.NHibernate\Hans.AspNetCore.Identity.NHibernate.sln
